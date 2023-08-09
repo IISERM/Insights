@@ -1,5 +1,5 @@
 # Site Settings
-name: MR19HT
+name: Turing
 title: MR19HT
 #description: Jekflix is a template for Jekyll inspired by Netflix and made by
   #Thiago Rossener.
@@ -56,7 +56,7 @@ sent_message_url: "/contact/message-sent/"
 # Build settings
 markdown: kramdown
 highlighter: rouge
-permalink: /:title/
+permalink: 
 collections:
   authors:
     output: true
