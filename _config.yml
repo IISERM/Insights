@@ -1,14 +1,11 @@
 # Site Settings
-name: MR19HT
-title: MR19HT
-#description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  #Thiago Rossener.
+name: Insight
+title: Insight
+description: A dev-blog for Insight--the official app for all things IISER Mohali
 tags:
   - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - updates
+  - devs
 show_hero: true
 menu:
   - title: Home
@@ -19,21 +16,21 @@ menu:
     url: /contact
   #- title: Feed
     #url: /feed.xml
-email: moe71389@gmail.com
+email: turingclub@iisermohali.ac.in
 # See: https://disqus.com/
-disqus_username: disqus_esKQctN0tI
+#disqus_username: disqus_esKQctN0tI
 # Contact Form Setting
 # See: https://formspree.io/
-formspree_form_id: f/mbjwodpz
+#formspree_form_id: f/mbjwodpz
 
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: Mr-R19HT
+#github_username: Mr-R19HT
 #facebook_username: facebook_username
-twitter_username: MR19HT
+#twitter_username: Mr_R19HT
 #instagram_username: instagram_username
-linkedin_username: ahmed-ayman-8m7a99
+#linkedin_username: ahmed-ayman-8m7a99
 #medium_username: medium_username
 
 
@@ -45,9 +42,9 @@ two_columns_layout: true
 
 
 # Advanced Settings
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-google_analytics: "UA-XXXXXXXX-X"
+baseurl:  # the subpath of your site, e.g. /blog
+url:  # the base hostname & protocol for your site
+#google_analytics: "UA-XXXXXXXX-X"
 language: "en"
 categories_folder: category
 sent_message_url: "/contact/message-sent/"
@@ -105,4 +102,4 @@ exclude: [
 ]
 
 # Theme
-#version: v3.1.1
+version: v0.0.1
