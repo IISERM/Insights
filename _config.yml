@@ -1,13 +1,11 @@
 # Site Settings
-name: Insights
-title: Insights
-description: A dev-blog for Insights--the official app for all things IISER Mohali
+name: Insight
+title: Insight
+description: A dev-blog for Insight--the official app for all things IISER Mohali
 tags:
   - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - updates
+  - devs
 show_hero: true
 menu:
   - title: Home
