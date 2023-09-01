@@ -29,5 +29,6 @@ For details and suggestions, please contact <a href="mailto:turingclub@iisermoha
 * *Rajnil Mukherjee* (ms21213@iisermohali.ac.in/+91 8017965462)
 * *Kaushik Gupta* (ms20129@iisermohali.ac.in/+91 7357832248)
 
+Website maintained by [Rajnil Mukherjee](mailto:ms21213@iisermohali.ac.in)
 
 
