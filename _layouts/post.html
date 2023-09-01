@@ -22,7 +22,7 @@
                 <p class="post-subtitle">{{ page.subtitle }}</p>
 
                 {% if page.image and paginator.activated == nil %}
-                    <img src="{{ page.image | prepend: site.baseurl }}" alt="Featured image" class="post-cover">
+                    <img src="{{ page.image }}" alt="Featured image" class="post-cover">
                 {% endif %}
 
                 {% include pagination-post.html progressBar=true %}
@@ -44,9 +44,9 @@
                             <li>
                                 <a href="{{ post.url | prepend: site.baseurl }}">
                                     {% if post.optimized_image %}
-                                        <img src="{{ post.optimized_image }}">
+                                        <img src="{{ post.optimized_image | prepend: site.baseurl }}">
                                     {% elsif post.image %}
-                                        <img src="{{ post.image }}">
+                                        <img src="{{ post.image | prepend: site.baseurl }}">
                                     {% else %}
                                         <img src="/assets/img/off.jpg">
                                     {% endif %}
